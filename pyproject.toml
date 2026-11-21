@@ -1,0 +1,9 @@
+[project]
+name = "research-datasets"
+version = "0.1.0"
+description = "A catalogue of datasets encountered through Research Snacks"
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6.0.3,<7"]
+
+[tool.uv]
+exclude-newer = "7 days"
