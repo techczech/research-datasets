@@ -684,6 +684,26 @@
     "notes": "The provider says this website is retained as an archive and is no longer updated as of 2026. Its specific terms allow personal use or internal circulation, reserve other rights and prohibit systematic copying; table access and functionality can be limited."
   },
   {
+    "id": "hofstede-national-culture-scores",
+    "title": "Hofstede six-dimension national culture scores",
+    "provider": "Geert Hofstede website and its linked country-comparison visualisation",
+    "url": "https://geerthofstede.com/country-comparison-graphs/",
+    "access": "open",
+    "licence": {
+      "name": "Non-commercial graph use with source credit; score-file redistribution terms not established",
+      "url": "https://geerthofstede.com/country-comparison-graphs/"
+    },
+    "data": "Country-level indices for power distance, individualism, masculinity, uncertainty avoidance, long-term orientation and indulgence. The official website links a visualisation whose CSV contains published scores alongside separately marked estimates; these are model indices, not respondent microdata.",
+    "citation": "https://geerthofstede.com/country-comparison-graphs/",
+    "snacks": [],
+    "found": {
+      "date": "2026-11-21",
+      "context": "Scoping country-level culture and values comparisons"
+    },
+    "checked": "2026-11-21",
+    "notes": "The linked visualisation reads https://hofstede.bartit.nl/dimensions.csv. The provider permits non-commercial use of resulting graphs with source credit and explicitly says not to use its unvalidated estimates in research. Redistribution terms for the CSV were not established. Preserve a retrieval date and exact score source because different revisions circulate; the CSV does not supply a release date in each country row. The dimension-data-matrix landing page returned a verification page during this check. No published Research Snack uses these scores yet."
+  },
+  {
     "id": "icit",
     "title": "Interactive Corpus of Indus Texts (ICIT)",
     "provider": "Bryan K. Wells and Andreas Fuls",
