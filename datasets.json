@@ -1048,6 +1048,26 @@
     "notes": "Current verification failed because the HTTPS certificate has expired; it was not bypassed. The description is limited to the provider’s previously indexed title and research-access description; current contents and terms could not be verified on 21 November 2026. Do not infer open redistribution rights."
   },
   {
+    "id": "seshat",
+    "title": "Seshat: Global History Databank",
+    "provider": "Seshat Global History Databank",
+    "url": "https://seshatdatabank.info/data",
+    "access": "free registration",
+    "licence": {
+      "name": "CC BY-SA 4.0 (Public Data, under the Seshat User Agreement)",
+      "url": "https://seshat-db.com/terms/current/"
+    },
+    "data": "Coded variables on the social and political organisation of past societies, recorded per polity and period. The database lists 867 polities in 47 regions, with general, social complexity, warfare, religion and economy variables, plus crisis and instability datasets. Public releases include replication datasets, the Polaris-2026 snapshot (spreadsheet, on GitHub), the earlier Equinox-2020 spreadsheet and an API with Python packages.",
+    "citation": null,
+    "snacks": [],
+    "found": {
+      "date": "2026-11-21",
+      "context": "Suggested for a future snack"
+    },
+    "checked": "2026-11-21",
+    "notes": "Browsing needs no account; downloading CSV or JSON needs a free account and acceptance of the User Agreement. Work-in-progress (Private) data may be visible but must not be shared. Values are expert codings with stated uncertainty, so results depend on the release used; cite the release."
+  },
+  {
     "id": "sibol",
     "title": "SiBol English newspaper corpus",
     "provider": "Universities of Siena and Bologna; Sketch Engine",
@@ -1098,6 +1118,39 @@
     "notes": "The provider assigns CC BY-NC-SA 4.0 to the dataset and drawings. Sign shape, transliteration and proposed sound value are different kinds of information."
   },
   {
+    "id": "sketch-engine",
+    "title": "Sketch Engine corpus collection",
+    "provider": "Lexical Computing CZ s.r.o.",
+    "url": "https://www.sketchengine.eu/corpora-and-languages/corpus-list/",
+    "access": "paid",
+    "licence": {
+      "name": "Sketch Engine Terms of Use",
+      "url": "https://www.sketchengine.eu/terms-of-use/"
+    },
+    "data": "An online corpus service that hosts about 800 ready-to-use corpora in over 100 languages, about one trillion words in all, including web corpora such as enTenTen and ukWaC. It offers concordances, word sketches, collocations and frequency lists, and users can build corpora from their own texts.",
+    "citation": "https://www.sketchengine.eu/bibliography-of-sketch-engine/",
+    "snacks": [
+      {
+        "title": "Can a cake be sickly?",
+        "url": "https://researchsnacks.semanticmachines.fyi/2026-11-17-can-a-cake-be-sickly/"
+      },
+      {
+        "title": "Do political hawks kill political doves?",
+        "url": "https://researchsnacks.semanticmachines.fyi/2026-11-19-hawks-and-doves/"
+      },
+      {
+        "title": "Literally: how close was I in 2011?",
+        "url": "https://researchsnacks.semanticmachines.fyi/2026-11-19-literally-pet-peeve-redo/"
+      }
+    ],
+    "found": {
+      "date": "2026-11-17",
+      "context": "Can a cake be sickly?"
+    },
+    "checked": "2026-11-21",
+    "notes": "Each corpus has its own access tier (open, trial, subscribers only, or on request), shown in the corpus list. A 30-day free trial exists; academic and non-academic subscriptions are priced separately, and academic accounts may not be used for lexicography or commercial work. Access to the service does not license the hosted corpora themselves."
+  },
+  {
     "id": "spoken-bnc2014",
     "title": "Spoken British National Corpus 2014",
     "provider": "Lancaster University and Cambridge University Press",
@@ -1121,6 +1174,26 @@
     },
     "checked": "2026-11-21",
     "notes": "Registration and licence agreement are required. The licence permits non-commercial research and teaching, restricts redistribution, and prohibits storing corpus copies on external cloud services. Written BNC2014 has separate terms."
+  },
+  {
+    "id": "talkbank",
+    "title": "TalkBank",
+    "provider": "TalkBank, Carnegie Mellon University",
+    "url": "https://talkbank.org/",
+    "access": "free registration",
+    "licence": {
+      "name": "TalkBank Ground Rules (CC BY-NC-SA, except where otherwise indicated)",
+      "url": "https://talkbank.org/0share/rules.html"
+    },
+    "data": "Transcribed spoken-language corpora in 14 research areas and over 42 languages, in the CHAT transcription format, often with linked audio or video. Sub-banks include CHILDES (child language), PhonBank, FluencyBank, HomeBank, BilingBank, SLABank, AphasiaBank and DementiaBank. Analysis programs (CLAN and others) are free.",
+    "citation": "https://talkbank.org/0share/citation.html",
+    "snacks": [],
+    "found": {
+      "date": "2026-11-21",
+      "context": "Suggested for a future snack"
+    },
+    "checked": "2026-11-21",
+    "notes": "Access has four levels. Web pages and programs are open. CHILDES data need a free registration. Clinical banks and most of HomeBank need approved academic access. Some corpora need a controlled-access interview and training. The Ground Rules forbid commercial use, including in language models, and uploading data to web processing services unless non-storage is selected. Cite each corpus as its manual says. The site links a CC BY-NC-SA 3.0 deed while the text says 4.0."
   },
   {
     "id": "tla",
@@ -1388,5 +1461,25 @@
     },
     "checked": "2026-11-21",
     "notes": "The repository documentation was read. Software or task-package licensing does not by itself relicense the underlying BNC text; online and archive versions need to be identified."
+  },
+  {
+    "id": "world-values-survey",
+    "title": "World Values Survey (WVS) and EVS/WVS trend file",
+    "provider": "World Values Survey Association",
+    "url": "https://www.worldvaluessurvey.org/WVSEVStrend.jsp",
+    "access": "free registration",
+    "licence": {
+      "name": "WVS Conditions of Use (non-profit use, citation, no redistribution)",
+      "url": "https://www.worldvaluessurvey.org/AJDownloadLicense.jsp"
+    },
+    "data": "Repeated cross-national surveys of values and beliefs, released by wave (wave 1, 1981-1984, to wave 7, 2017-2022) and as a WVS time-series 1981-2022 (v4.1, June 2024). Merged with the EVS Trend File 1981-2017, it forms the Integrated Values Surveys, 452 surveys from 115 countries and territories. Files come with SPSS and Stata merge syntax and a common EVS-WVS dictionary.",
+    "citation": "https://www.worldvaluessurvey.org/WVSEVStrend.jsp",
+    "snacks": [],
+    "found": {
+      "date": "2026-11-21",
+      "context": "Suggested for a future snack"
+    },
+    "checked": "2026-11-21",
+    "notes": "Each download asks for a short form (name, institution, purpose) and agreement to the Conditions of Use. Data are for non-profit use, must not be redistributed, and publications must cite the data and send the citation to the WVS Association. Respondent-level data need the survey weights; question wording and country coverage differ by wave."
   }
 ]
