@@ -1372,3 +1372,30 @@
     a retrieval date and exact score source because different revisions circulate; the CSV does not supply
     a release date in each country row. The dimension-data-matrix landing page returned a verification
     page during this check. No published Research Snack uses these scores yet.
+- id: european-values-study
+  title: European Values Study (EVS)
+  provider: European Values Study, with data archived at GESIS – Leibniz Institute for the Social Sciences
+  url: https://europeanvaluesstudy.eu/surveys/data-access/
+  access: free registration
+  licence:
+    name: GESIS Data Usage Terms
+    url: https://www.gesis.org/en/institute/data-usage-terms
+  data: Repeated cross-national survey of how Europeans think about family, work, religion, politics and
+    society, run about every nine years (waves 1981, 1990, 1999, 2008 and 2017; a 2026 wave is under
+    way). Released per wave and as the EVS Trend File 1981-2017 (ZA7503, v3.0.0, 2022), which holds 160
+    surveys with more than 224,000 respondents from 48 countries and regions, Czechia included. Comes
+    with master questionnaires, variable reports and the Common EVS/WVS Dictionary; the EVS 2017 data
+    also form part of the joint EVS/WVS 2017-2022 release and the Integrated Values Surveys 1981-2022.
+  citation: https://europeanvaluesstudy.eu/surveys/data-access/
+  snacks: []
+  found:
+    date: '2026-11-22'
+    context: Suggested for a future snack alongside the World Values Survey
+  checked: '2026-11-22'
+  notes: Download is free of charge from the GESIS data catalogue after signing in with a free account;
+    the data are provided under the GESIS Data Usage Terms. Publications must cite the dataset in the
+    footnotes or references, for example "EVS (2022) EVS Trend File 1981-2017, GESIS, ZA7503 v3.0.0,
+    doi:10.4232/1.14021". A sensitive version of the Trend File (ZA7504) holds variables left out for
+    data protection and needs a separate contract. The GESIS terms page and study pages refused automated
+    reading on 22 Nov 2026, so the access category of each file should be confirmed in a browser before
+    use.
