@@ -1906,3 +1906,131 @@
     and cannot be rebuilt from the repository. The README names the rated model inconsistently (Claude Opus
     5 and Claude Opus 5.5). Funding acknowledged from Stanford Impact Labs and Anthropic. METHODOLOGY.md
     not yet read.
+- id: syn2010
+  title: SYN2010 written Czech corpus
+  provider: Institute of the Czech National Corpus, Faculty of Arts, Charles University
+  url: https://wiki.korpus.cz/doku.php/cnk:syn2010
+  access: free registration
+  licence:
+    name: Czech National Corpus conditions of access and citation
+    url: https://wiki.korpus.cz/doku.php/kurz:zaciname
+  data: A genre-balanced, lemmatised and morphologically tagged corpus of written Czech, released in 2010, containing about 100 million text words. It includes fiction, specialist literature and journalism; journalistic texts cover 2005–2009, while literary texts can be older and include translations.
+  citation: https://wiki.korpus.cz/doku.php/cnk:syn2010
+  snacks: []
+  found:
+    date: '2026-11-24'
+    context: War and peace names, private first-pass research
+  checked: '2026-11-24'
+  notes: Queried through KonText in a private English/Czech naming comparison. Keep original lemma/tag errors visible and inspect contexts; a plural query for mír retrieved many míra contexts. Provider conditions require corpus attribution, limit continuous quotations to 100 words and request relevant scientific publications be registered in Biblio. Raw returns remain private; add a snack link only after release.
+- id: cstenten17
+  title: Czech Web 2017 (csTenTen17)
+  provider: Lexical Computing / Sketch Engine
+  url: https://www.sketchengine.eu/cstenten-czech-corpus/
+  access: paid
+  licence:
+    name: Sketch Engine terms and source-text rights
+    url: https://www.sketchengine.eu/terms-of-use/
+  data: A tagged and lemmatised Czech web corpus available through Sketch Engine for concordance searches, word sketches and collocation analysis. The exact corpus build used for access checking was preloaded/cstenten17_mj2.
+  citation: https://www.sketchengine.eu/cstenten-czech-corpus/
+  snacks: []
+  found:
+    date: '2026-11-24'
+    context: Reserve corpus vetted for war and peace names
+  checked: '2026-11-24'
+  notes: Metadata and a word sketch were inspected, but the selected first-pass evidence uses SYN2010. This later web corpus cannot establish pre-2013 usage without independently dated source texts. Service access does not establish redistribution rights in all source texts.
+- id: coca
+  title: Corpus of Contemporary American English (COCA)
+  provider: English-Corpora.org
+  url: https://www.english-corpora.org/coca/
+  access: free registration
+  licence:
+    name: English-Corpora.org access and use conditions; export terms not verified
+    url: https://www.english-corpora.org/faq.asp
+  data: A corpus of American English organised by period and register, with concordance, frequency and collocation searches. Provider documentation describes its text composition and interfaces; current versions differ from the corpus available in 2013.
+  citation: https://www.english-corpora.org/coca/help/texts.asp
+  snacks: []
+  found:
+    date: '2026-11-24'
+    context: Source corpus cited in a 2013 reply about war and peace vocabulary
+  checked: '2026-11-24'
+  notes: Provider documentation was checked as a source lead. Operational query access and detailed export terms were not established, and absence from the connected Sketch Engine catalogue is not evidence that access is unavailable elsewhere. No COCA replication was run; free interface access can carry limits and paid alternatives.
+- id: cow-war-data
+  title: Correlates of War war datasets
+  provider: Correlates of War Project
+  url: https://correlatesofwar.org/data-sets/cow-war/
+  access: open
+  licence:
+    name: COW non-commercial use and redistribution restrictions
+    url: https://correlatesofwar.org/data-sets/
+  data: Separate interstate, intrastate, extrastate and non-state war datasets with documentation and historical war records. The inspected non-state codebook includes a WarName field, alongside identifiers and conflict characteristics.
+  citation: https://correlatesofwar.org/data-sets/cow-war/
+  snacks: []
+  found:
+    date: '2026-11-21'
+    context: Domain map for names of wars and peace settlements
+  checked: '2026-11-24'
+  notes: Seriously vetted through the overview and non-state codebook, but not used for corpus-language counts. Name fields in all four files were not verified. Terms prohibit commercial activity and third-party dataset distribution without written permission; public download access does not mean an open redistribution licence.
+- id: ucdp-peace-agreements
+  title: UCDP Peace Agreement Dataset
+  provider: Uppsala Conflict Data Program, Uppsala University
+  url: https://ucdp.uu.se/downloads/#peaceagreement
+  access: open
+  licence:
+    name: CC BY 4.0, as stated by the download centre
+    url: https://ucdp.uu.se/downloads/
+  data: Peace-agreement records linked to conflicts, dyads and actors, with agreement names and coding documentation. The inspected version 22.1 codebook documents pa_name and distinguishes official names from temporary place-based names assigned when an agreement has no official name.
+  citation: https://ucdp.uu.se/downloads/
+  snacks: []
+  found:
+    date: '2026-11-21'
+    context: Domain map for names of wars and peace settlements
+  checked: '2026-11-24'
+  notes: Name-field definition was inspected, not the full dataset. The current download centre lists version 22.2; keep the inspected 22.1 codebook distinct. Editor-assigned agreement labels are not automatically conventional names in language use. Not used in the first-pass corpus comparison.
+- id: pa-x
+  title: PA-X Peace Agreements Database
+  provider: PeaceRep, University of Edinburgh
+  url: https://www.peaceagreements.org/
+  access: open
+  licence:
+    name: CC BY-NC-SA 4.0 except third-party copyrighted material
+    url: https://www.peaceagreements.org/media/documents/Terms_of_Use.pdf
+  data: Peace-agreement documents and coded metadata, searchable by agreement characteristics and conflict context. The inspected version 10 codebook defines Agt as the agreement name taken from its text, sometimes supplemented with a popular name in parentheses.
+  citation: https://www.peaceagreements.org/
+  snacks: []
+  found:
+    date: '2026-11-21'
+    context: Domain map for names of wars and peace settlements
+  checked: '2026-11-24'
+  notes: The agreement-name definition and provider terms were inspected; the full coding scheme and empirical records were not analysed. Third-party material and translation conditions need separate attention. A formal document title and a conventional historical name are different evidence.
+- id: un-treaty-collection
+  title: United Nations Treaty Collection
+  provider: United Nations Treaty Section
+  url: https://treaties.un.org/
+  access: open
+  licence:
+    name: United Nations website and document-specific conditions; bulk reuse not verified
+    url: https://www.un.org/en/about-us/terms-of-use
+  data: Registered and deposited treaty records, with titles, parties, dates, languages and treaty documents. Search facilities include popular names; the collection covers many subjects besides peace settlements.
+  citation: https://treaties.un.org/
+  snacks: []
+  found:
+    date: '2026-11-21'
+    context: Domain map for names of wars and peace settlements
+  checked: '2026-11-24'
+  notes: Registration, instrument terminology and discovery documentation were vetted. Bulk export, individual document rights and the exact name-field extraction were not established. The collection was set aside for the bounded corpus-led first pass.
+- id: league-nations-treaty-series
+  title: League of Nations Treaty Series
+  provider: United Nations, custodian of League of Nations treaty records
+  url: https://treaties.un.org/pages/Content.aspx?path=DB/LoNOnline/pageIntro_en.xml
+  access: open
+  licence:
+    name: United Nations website and document-specific conditions; redistribution not verified
+    url: https://www.un.org/en/about-us/terms-of-use
+  data: Digitised historical League of Nations treaty-series records and documents. The series offers a source for historical treaty titles, parties and texts rather than a list restricted to named peaces.
+  citation: https://treaties.un.org/pages/Content.aspx?path=DB/LoNOnline/pageIntro_en.xml
+  snacks: []
+  found:
+    date: '2026-11-21'
+    context: Historical treaty source vetted for war and peace names
+  checked: '2026-11-24'
+  notes: The official introduction was inspected; individual title fields, record extraction and redistribution rights were not checked. A guessed discovery URL failed before the official introduction was found. No empirical records were used in the first pass.
