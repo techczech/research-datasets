@@ -1778,7 +1778,7 @@
       "context": "War and peace names, private first-pass research"
     },
     "checked": "2026-11-24",
-    "notes": "Queried through KonText in a private English/Czech naming comparison. Keep original lemma/tag errors visible and inspect contexts; a plural query for mír retrieved many míra contexts. Provider conditions require corpus attribution, limit continuous quotations to 100 words and request relevant scientific publications be registered in Biblio. Raw returns remain private; add a snack link only after release."
+    "notes": "Queried through KonText. Automated lemma and morphological annotations require contextual checking; record the exact corpus version and query. Provider conditions require corpus attribution, limit continuous quotations to 100 words and request relevant scientific publications be registered in Biblio. Raw returns remain private; add a snack link only after release."
   },
   {
     "id": "talkbank",
